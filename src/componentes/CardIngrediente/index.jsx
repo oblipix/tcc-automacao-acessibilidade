@@ -48,7 +48,8 @@ const CardIngrediente = ({ categoria }) => {
         <CardContainer>
             <Card>
                 <CardHeader>
-                    <img src={categoria.icone} />
+                    {/* ADIÇÃO DO ATRIBUTO 'ALT' NA IMAGEM */}
+                    <img src={categoria.icone} alt={`Ícone da categoria ${categoria.nome}`} />
                     <CardTitulo>{categoria.nome}</CardTitulo>
                 </CardHeader>
                 <CardBody>

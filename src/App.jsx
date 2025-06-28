@@ -1,5 +1,6 @@
 import Cabecalho from "./componentes/Cabecalho"
 import Ingredientes from "./componentes/Ingredientes"
+import FormularioReceita from "./componentes/FormularioReceita/FormularioReceita"
 import Rodape from "./componentes/Rodape"
 
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Cabecalho />
       <Ingredientes />
+      <FormularioReceita />
       <Rodape />
     </>
   )
